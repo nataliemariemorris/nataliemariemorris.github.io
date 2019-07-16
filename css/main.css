@@ -1,0 +1,166 @@
+header {
+    margin-left: 10px;
+}
+
+header img {
+    margin-right: 20px;
+    max-width: 200px;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+header img:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+} 
+
+intro {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    letter-spacing: 0.06em;
+    font-style: normal;
+}
+
+intro a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 10;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    letter-spacing: 0.06em;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: black;
+}
+
+header, intro {
+    float: left;
+}
+
+.grid-container {
+    padding: 10px;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 35px;
+}
+
+.one img {
+    max-width: 100%;
+}
+
+.desc {
+    display:inline-block;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    letter-spacing: 0.06em;
+    font-style: normal;
+}
+
+.desc a {
+    color: black;
+}
+
+.about {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    letter-spacing: 0.06em;
+    font-style: normal;
+}
+
+.content-body {
+    padding: 10px;
+}
+
+.about p {
+    margin: 0;
+    padding: 0;
+}
+
+.art-grid-container {
+    padding: 10px;
+    grid-template-columns: 90%;
+    display: grid;
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+container img {
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.credit {
+    position: relative;
+}
+
+.credittext {
+    transform: rotate(90deg);
+    transform-origin: right 0;
+    color: darkgrey;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+    letter-spacing: 0.06em;
+    font-style: normal;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 750px) {
+    header img {
+        max-width: 120px;
+    }
+    
+    intro {
+        font-size: 25px;
+    }
+    
+    nav {
+        font-size: 25px;
+    }
+    
+    .about {
+        font-size: 15px;
+    }
+    
+    .desc {
+        font-size: 25px;
+    }
+    
+    .grid-container {
+        grid-template-columns: 90%;
+        padding-right: 0%;
+    }
+    
+    .art-grid-container {
+        grid-template-columns: 90%;
+        padding-right: 0%;
+    }
+}
