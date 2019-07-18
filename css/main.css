@@ -76,7 +76,6 @@ header, intro {
 }
 
 .grid-container {
-    padding: 10px;
     padding-right: 5%;
     display: grid;
     grid-template-columns: 40% auto;
