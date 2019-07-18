@@ -160,11 +160,11 @@ container img {
     }
     
     intro {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     nav {
-        font-size: 20px;
+        font-size: 15px;
         right: 0;
         text-align: right;
         margin-right: 5%;
@@ -172,11 +172,11 @@ container img {
     }
     
     .about {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .desc {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .grid-container {
@@ -185,7 +185,7 @@ container img {
     }
     
     .art-grid-container {
-        grid-template-columns: 90%;
+        grid-template-columns: 97%;
         padding-right: 0%;
     }
 }
