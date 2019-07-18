@@ -51,7 +51,6 @@ intro a:hover {
 }
 
 nav {
-    padding: 10px;
     position: fixed;
     bottom: 0;
     left: 10;
@@ -161,23 +160,27 @@ container img {
     }
     
     intro {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     nav {
-        font-size: 25px;
+        font-size: 20px;
+        right: 0;
+        text-align: right;
+        margin-right: 5%;
+        bottom: 0;
     }
     
     .about {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .desc {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .grid-container {
-        grid-template-columns: 90%;
+        grid-template-columns: 97%;
         padding-right: 0%;
     }
     
