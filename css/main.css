@@ -166,7 +166,8 @@ container img {
         font-size: 15px;
         right: 0;
         text-align: right;
-        margin-right: 5%;
+        margin-right: 50px;
+        margin-bottom: 20px;
         bottom: 0;
     }
     
