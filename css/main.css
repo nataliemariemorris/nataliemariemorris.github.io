@@ -170,6 +170,12 @@ container img {
     visibility: hidden;
 }
 
+.slide_button_left {
+    background: transparent;
+    border: none;
+    color: black;
+}
+
 
 @media screen and (max-width: 750px) {
     header img {

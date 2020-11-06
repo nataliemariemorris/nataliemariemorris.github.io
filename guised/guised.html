@@ -11,7 +11,13 @@
     <link rel="icon" 
       type="image/png" 
       href="../img/favicon.png">
-    </head>
+    
+    <style>
+        .slides {
+            display:none;
+        }
+    </style>
+</head>
  
 <body>
 <div class= "content-body">
@@ -27,12 +33,21 @@
     </div>
     
     <container>
-        <img class="guised_1" src="../img/portfolio/guised/guised1.jpg">
-        <img class="guised_2" src="../img/portfolio/guised/guised2.jpg">
-        <img class="guised_3" src="../img/portfolio/guised/guised3.jpg">
-        <img class="guised_4" src="../img/portfolio/guised/guised4.jpg">
-        <img class="guised_5" src="../img/portfolio/guised/guised5.jpg">
-        <img class="guised_6" src="../img/portfolio/guised/guised6.jpg">
+<!--        <img class="guised_1" src="../img/portfolio/guised/guised1.jpg"style="width:100%">
+        <img class="guised_2" src="../img/portfolio/guised/guised2.jpg"style="width:100%">
+        <img class="guised_3" src="../img/portfolio/guised/guised3.jpg"style="width:100%">
+        <img class="guised_4" src="../img/portfolio/guised/guised4.jpg"style="width:100%">
+        <img class="guised_5" src="../img/portfolio/guised/guised5.jpg"style="width:100%">
+        <img class="guised_6" src="../img/portfolio/guised/guised6.jpg"style="width:100%">-->
+           
+    <div class="slideshow">
+        <img class="slides" src="../img/portfolio/guised/guised1.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/guised/guised2.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/guised/guised3.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/guised/guised4.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/guised/guised5.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/guised/guised6.jpg"style="width:100%" onclick="plusDivs(1)">
+    </div>
     
     
     </container>
@@ -41,5 +56,26 @@
         <a href="about/about.html"><img src="../img/contact.png"></a>
     </div>
     
-</div>   
+</div> 
+    
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+    </script>    
+    
 </body>
