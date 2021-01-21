@@ -176,6 +176,9 @@ container img {
     color: black;
 }
 
+.slideshow {
+    cursor: url(../img/finger.png), auto;
+}
 
 @media screen and (max-width: 750px) {
     header img {

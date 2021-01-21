@@ -27,18 +27,47 @@
     </div>
     
     <container>
-        <img class="dropbox_1" src="../img/portfolio/drop/dropbox8.jpg">
+<!--       <img class="dropbox_1" src="../img/portfolio/drop/dropbox8.jpg">
         <img class="dropbox_2" src="../img/portfolio/drop/dropbox4.jpeg">
         <img class="dropbox_3" src="../img/portfolio/drop/dropbox2.jpeg">
         <img class="dropbox_4" src="../img/portfolio/drop/dropbox3.jpeg">
         <img class="dropbox_5" src="../img/portfolio/drop/dropbox9.jpg">
+-->
+    
+    <div class="slideshow">
+        <img class="slides" src="../img/portfolio/drop/dropbox8.jpg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/drop/dropbox4.jpeg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/drop/dropbox3.jpeg"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/drop/dropbox9.jpg"style="width:100%" onclick="plusDivs(1)">
+    </div>
     
     
     </container>
     
     <div id="mail">
-        <a href="about/about.html"><img src="../img/contact.png"></a>
+        <a href="../about/about.html"><img src="../img/contact.png"></a>
     </div>
     
-</div>   
+</div> 
+    
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+    </script>   
+    
 </body>

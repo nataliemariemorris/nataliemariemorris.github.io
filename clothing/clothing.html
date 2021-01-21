@@ -27,13 +27,48 @@
     </div>
     
     <container>
-        <img class="clothing_1" src="../img/portfolio/clothing/clothing2.png">
+ <!--       <img class="clothing_1" src="../img/portfolio/clothing/clothing2.png">
         <img class="clothing_2" src="../img/portfolio/clothing/clothing3.png">
     </container>
     
     <div id="mail">
-        <a href="about/about.html"><img src="../img/contact.png"></a>
+        <a href="../about/about.html"><img src="../img/contact.png"></a>
+    </div> 
+-->
+        
+   <div class="slideshow">
+        <img class="slides" src="../img/portfolio/clothing/clothing2.png"style="width:100%" onclick="plusDivs(1)">
+        <img class="slides" src="../img/portfolio/clothing/clothing3.png"style="width:100%" onclick="plusDivs(1)">
     </div>
     
-</div>   
+    
+    </container>
+    
+    <div id="mail">
+        <a href="../about/about.html"><img src="../img/contact.png"></a>
+    </div>
+    
+</div> 
+    
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+    </script>    
+
+ 
 </body>
