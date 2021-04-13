@@ -1,6 +1,16 @@
+@font-face {
+    font-family: sometimestimes-italic;
+    src: url(sometimestimesitalic.woff);
+}
+
+@font-face {
+    font-family: sometimestimes;
+    src: url(sometimestimes.woff);
+}
+
 header img {
     padding-top: 6px;
-    width: 50%;
+    padding-right: 40%;
 /*    transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;
@@ -113,6 +123,8 @@ header, intro {
 }
 
 .about {
+    margin-top: 0;
+    margin-left: 5%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 4vh;
@@ -130,7 +142,6 @@ header, intro {
 }
 
 .art-grid-container {
-    padding: 10px;
     grid-template-columns: 90%;
     display: grid;
     grid-gap: 10px;
