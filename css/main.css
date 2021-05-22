@@ -193,6 +193,23 @@ container img {
     cursor: url(../img/finger.png), auto;
 }
 
+.header-link {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    font-size: 4vh;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.header-link p {
+    margin: 0;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 750px) {
     header img {
         max-width: 120px;
