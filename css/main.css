@@ -214,6 +214,14 @@ container img {
     display: none;
 }
 
+.link {
+    color: black;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 750px) {
     header img {
         max-width: 120px;
