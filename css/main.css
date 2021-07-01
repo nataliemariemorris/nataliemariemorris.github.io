@@ -210,9 +210,17 @@ container img {
     text-decoration: underline;
 }
 
+.info-breaker {
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     header img {
         max-width: 120px;
+    }
+    
+    .info-breaker {
+        display: block;
     }
     
     intro {
@@ -231,6 +239,7 @@ container img {
     
     .about {
         font-size: 15px;
+        margin-left: 0;
     }
     
     .desc {
