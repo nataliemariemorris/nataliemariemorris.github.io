@@ -35,7 +35,7 @@ intro {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 4vh;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -75,7 +75,7 @@ nav {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 4vh;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     font-style: normal;
     margin-bottom: 10px;
 }
@@ -109,7 +109,7 @@ header, intro {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 4vh;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -128,7 +128,7 @@ header, intro {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 4vh;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -164,7 +164,7 @@ container img {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-size: 1.5vh;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     font-style: normal;
     right: 0;
     bottom: 0;
